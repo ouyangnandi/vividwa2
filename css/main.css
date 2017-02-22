@@ -1,0 +1,225 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-2-19, 23:09:35
+    Author     : Nandy
+*/
+
+.brandImg{
+    margin:auto auto;
+    max-height: 75px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.navBarWhiteLineLeft{
+    border-bottom: 1px solid white;
+    width:40%;
+}
+
+.navBarWhiteLineLeft li{
+    margin-bottom: 4px;
+}
+@media (min-width: 1200px) {
+    .navBarWhiteLineLeft li a{
+        font-size: 18px;
+    }
+    .navBarWhiteLineRight li{
+        font-size: 18px;
+    }
+}
+
+.navBarWhiteLineLeft li:hover{
+    border-bottom: 4px solid #FFF;
+    margin-bottom: 0px;
+}
+
+.navBarWhiteLineRight{
+    border-bottom: 1px solid white;
+    width:40%;
+}
+
+.navBarWhiteLineRight li{
+    margin-bottom: 4px;
+}
+
+.navBarWhiteLineRight li:hover{
+    border-bottom: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 768px){
+    .notDisplayOver768 {
+        display:none;
+    }
+
+    .navBarWhiteLineRight li{
+        float:right;
+
+    }
+}
+
+@media (max-width:768px){
+    .displayOver768{
+        display:none;
+    }
+    .textBookingNow{
+        float:left;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 1200px) {
+
+    .navBarWhiteLineLeft li a{
+        font-size: 14px;
+    }
+    .navBarWhiteLineRight li{
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px){
+    .textBookingNow{
+        float:left;
+        font-size: 50px;
+    }
+}
+
+.footerCSS{
+    background-color:#808284;
+    height: 60px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    color:white;
+}
+.bookingCSS{
+    background-color:#BBBDC0;
+    color:white;
+}
+.bookingCSSLeft{
+    text-align: right;
+}
+
+.orangeColor{
+    color:#CB9B2B;
+}
+
+.iconBorder{
+    padding: 15px;
+    border:1px solid #fff;
+    height: 50px;
+    width: 50px;
+
+}
+
+.smallNav{
+    height:15px;
+    text-align: right;
+
+}
+.smallNav a{
+    color:#FFF;
+}
+
+
+.marginBottom4px{
+    margin-bottom: 4px;    
+}
+
+.borderSquare{
+    border-radius: 0px;
+}
+
+.marginBottom20px{
+    margin-bottom: 20px;   
+}
+
+.sendUSBgColor{
+    background-color: #4CAF50;
+
+}
+
+.socialMedia{
+    background: url("../images/indexEnd.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% 100%;
+    padding:0px;
+}
+
+@media (max-height:768px){
+    .textImage{
+        position: absolute;
+        margin: 0 auto;
+        top: 20vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index:21;
+        max-width: 50%;
+    }
+
+}
+@media (min-height:768px){
+    .textImage{
+        position: absolute;
+        margin: 0 auto;
+        top: 18vh;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index:21;
+        max-width: 50%;
+    }
+
+
+}
+
+.padding0{
+    padding: 0px;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.bookingNowRow{
+    width:90%;
+    margin: 10px auto;
+}
+
+.contactInfo{
+    height:353px;
+    padding-top:50px;
+    font-size: 20px;
+
+}
+
+.fontSize16px{
+    font-size: 16px;
+}
+
+.opacityBlack{
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.clear { clear: both;overflow: auto;}
+
+
+.margin0{
+    margin:0px;
+}
+
